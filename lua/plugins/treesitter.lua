@@ -5,7 +5,7 @@ return  {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate",
       ensure_installed ={"c", "lua", "javascript", "typescript", "html", "rust", "python" },
       highlight = { enable = true },
       indent = { enable = true },  
-})
+    })
   end 
 }
 
